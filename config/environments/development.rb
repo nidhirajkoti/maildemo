@@ -20,7 +20,7 @@ config.action_mailer.delivery_method = :smtp
 
 config.action_mailer.smtp_settings={ 
             address: "smtp-z1-nomx.lilly.com",
-            port: 25,
+            port: 587,
             domain: "lilly.com",
             authentication: "plain"
              }
