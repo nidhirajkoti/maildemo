@@ -23,8 +23,6 @@ config.action_mailer.smtp_settings={
             port: 25,
             domain: "lilly.com",
             authentication: "plain"
-            # user_name: "testnidhi59",
-            # password: "admin@12345"
              }
 
 config.action_mailer.default_url_options = {host:"localhost:3000"}
