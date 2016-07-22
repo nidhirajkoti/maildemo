@@ -12,4 +12,4 @@ ActionMailer::Base.smtp_settings = {
             :authentication => "plain",
             :user_name => ENV["gmail_username"],
             :password => ENV["gmail_password"]
-             }
+}
